@@ -1,0 +1,15 @@
+body{
+font-size: 150%;
+background-color: #5F9EA0;
+color: white;
+}
+
+h2,h1{
+	color: #DEB887;
+}
+ .pic1{
+ 
+ height: 300px;
+ width: 250px;
+border: solid white; 
+ }
