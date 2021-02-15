@@ -7,12 +7,96 @@ color: white;
 
 h2,h1{
  color: #DEB887;
+ padding: 10px;
 }
 
 
- .pic1{
+ img{
  
- height: 300px;
- width: 250px;
+ height: 153px;
+ width: 120px;
  border: solid white; 
+ float: right;
+ position: absolute;
+ top: 31px;
+ left: 1140px;
+
+ 
  }
+
+header{
+	background-color: black;
+}
+
+ footer{
+ 	text-align: center;
+
+ }
+
+ a{
+ 	text-decoration-line: none;
+ 	color: black;
+ }
+
+ article{
+ 	background-color: black;
+ }
+
+p{
+	padding: 10px;
+}
+
+
+ul{
+   background-color: black;
+   list-style: none;
+   margin:0;
+   padding: 0;
+}
+
+ul li{
+	display: inline-block;
+	margin-left: 300px;
+	
+
+}
+
+ul li a{
+	display: block;
+	padding: 8px;
+	background-color: white;
+	text-decoration: none;
+	text-align: center;
+	border: solid black;
+}
+
+ul li ul li{
+	margin-left: 0px;
+	display: block;
+
+}
+
+
+
+.dropdown {
+  float: left;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ul li ul li a:hover{
+	background-color: #DEB887;
+}
+
+ul li ul li a{
+	text-align: left;
+}
+
