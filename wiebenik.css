@@ -2,7 +2,7 @@ body{
 font-size: 150%;
 background-color: #5F9EA0;
 color: white;
-position: relative;
+
 }
 
 
@@ -19,7 +19,7 @@ h2,h1{
  border: solid white; 
  float: right;
  position: absolute;
- top: 31px;
+ top: 30px;
  left: 1140px;
 
  
