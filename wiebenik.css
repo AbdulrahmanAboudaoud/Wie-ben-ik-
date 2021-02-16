@@ -2,6 +2,7 @@ body{
 font-size: 150%;
 background-color: #5F9EA0;
 color: white;
+position: relative;
 }
 
 
@@ -30,6 +31,8 @@ header{
 
  footer{
  	text-align: center;
+ 	
+
 
  }
 
@@ -105,3 +108,20 @@ ul li ul li a{
 	text-align: left;
 }
 
+
+footer a{
+	border: solid black;
+	margin-right: 5px;
+	background-color: black;
+	color:#DEB887;
+}
+
+footer a:hover{
+	background-color:#DEB887; 
+	color: #5F9EA0;
+}
+
+
+.mainmenu{
+	margin-bottom: 350px;
+}
